@@ -7,6 +7,9 @@ import java.util.Map;
 import java.util.Set;
 
 public class Git {
+	public void m1() {
+		System.out.println("done");
+	}
 
 	public static void main(String[] args) {
 		 Map<Integer, String> m = new HashMap<>();
@@ -50,6 +53,8 @@ public class Git {
 		
 		 m.clear();
 		 System.out.println(m);	
+		 
+		 
 
 		
 	}
